@@ -10,7 +10,7 @@
         background: linear-gradient(45deg, #176f5c, #033108);
         color: white;
         border: none;
-        padding: 50px 90px;
+        padding: 40px 80px;
         font-size: 40px;
         border-radius: 64px;
         cursor: default;
@@ -22,7 +22,7 @@
         background: linear-gradient(45deg, #6f1717, #310303);
         color: white;
         border: none;
-        padding: 50px 90px;
+        padding: 40px 80px;
         font-size: 40px;
         border-radius: 64px;
         cursor: not-allowed;
