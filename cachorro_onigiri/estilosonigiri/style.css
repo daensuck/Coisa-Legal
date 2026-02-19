@@ -7,12 +7,13 @@
         justify-content: center; /* centraliza vertical */
         align-items: center;     /* centraliza horizontal */
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #7b2727;
+        background-color: #7b272781;
         color: #000000; /* nova cor da fonte */
     }
 
     img {
     transition: transform 0.3s ease;
+    border: 5px groove rgb(163, 68, 68);
 }
 
 img:hover {
