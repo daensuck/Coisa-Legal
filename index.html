@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coisa Legal</title>
+    <link rel="shortcut icon" href="iconinicial.ico" type="image/x-icon">
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        background-color: #ffffff;
+    }
+
+    button {
+        background: linear-gradient(45deg, #176f5c, #033108);
+        color: white;
+        border: none;
+        padding: 50px 90px;
+        font-size: 40px;
+        border-radius: 64px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(131, 27, 27, 0.3);
+    }
+
+    button:active {
+        transform: scale(0.95);
+    }
+</style>
+<body>
+    
+    <h1>Quer ver uma coisa legal?</h1>
+    
+
+    <img id="minhaImagem" src="cachorro_onigiri650.jpg"
+         style="display: none; width:300px;">
+
+    <script>
+        function mostrarImagem() {
+            document.getElementById("minhaImagem").style.display = "block";
+        }
+    </script>
+
+    <br><br>
+
+
+    <a href="cachorro_onigiri/index.html" rel="next"><button onclick="mostrarImagem()">SIM</button></a>
+    
+</body>
+</html>
